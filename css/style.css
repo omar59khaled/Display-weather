@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+nav {
+    background-color: rgb(30, 32, 43)!important;
+}
+.navbar-toggler{
+ 
+    background-color: white;
+}
+
+
+.search-zone{
+    background-image: url(../images/banner.png);
+    min-height: 300px;
+    background-size: cover;
+    padding: 70px 0px;
+   
+
+
+
+}
+
+
+input {
+    background-color: rgb(30, 32, 43);
+}
+
+.bio {
+    font-size: 14px;
+}
+
+form {
+    position: relative;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+#submit {
+
+    color: white;
+    background-color: rgb(0,154,216);
+    border-radius: 30px;
+    border: none;
+    padding: 5px 40px;
+    position: absolute;
+    bottom: 3px;
+    right: 4px;
+   
+}
+
+
+.table {
+
+    background: #1e202b;
+    
+    
+
+  
+}
+
+.today-item {
+    background-color: rgb(50, 53, 68) !important;
+    position: relative;
+}
+
+.today-date {
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+#todayLocation {
+    font-size: 25px;
+    font-weight: bolder;
+    color: bisque;
+}
+
+#todayCondition {
+    font-weight: bolder;
+
+}
+
+.today-item .degree-num {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.nextDayCondition {
+    font-weight: bolder;
+
+}
+
+.tomorrow-item {
+    background: rgb(39,41,54)!important;
+    position: relative;
+}
+
+.tomorrow-date {
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.nextDayDegree {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.after-tomorrow-item {
+    background-color: rgb(51, 53, 68) !important;
+    position: relative;
+ 
+}
+
+.after-tomorrow-date {
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+
+footer{
+    background-color: rgb(39,41,54);
+   
+}
+#subscribe{
+    position: relative;
+}
+#btn-subscribe{
+    color: white;
+    background-color: rgb(0,154,216);
+    border-radius: 30px;
+    border: none;
+    padding: 5px 15px;
+    position: absolute;
+    bottom: 3px;
+    left: 42%;
+}
+footer a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+    margin-right: 8px;
+    
+}
+footer a:hover{
+    background: #009ad8;
+    color: azure;
+}
+
